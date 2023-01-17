@@ -1,0 +1,27 @@
+#todo-list {
+    height: 15vh;
+}
+
+#todo-list::-webkit-scrollbar {
+    width: 10px;
+}
+
+#todo-list::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 10px;
+}
+
+#todo-list::-webkit-scrollbar-track {
+    background-color: rgb(201, 198, 198);
+    border-radius: 10px;
+    /*inset을 쓰면 그림자가 안에 생김*/
+    box-shadow: inset 0px 0px 5px white;
+}
+
+.showScroll {
+    overflow: auto;
+}
+
+.hideScroll {
+    overflow: hidden;
+}

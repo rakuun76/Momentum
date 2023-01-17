@@ -1,0 +1,26 @@
+/*배경 이미지*/
+.img0 {
+    background-image: url("img/0.jpg");
+}
+
+.img1 {
+    background-image: url("img/1.jpg");
+}
+
+.img2 {
+    background-image: url("img/2.jpg");
+}
+
+/*배경 이미지 크기 자동 조절(스케일링)
+반응형 웹 디자인*/
+.imgForm {
+    /*https://heinafantasy.com/168 참고*/
+    background-size: cover;
+    /*이미지 비율 유지하며 꽉 채움*/
+    background-repeat: no-repeat;
+    /*빈 공간 생겨도 반복 X*/
+    background-attachment: fixed;
+    /*배경을 뷰포트에 고정, 배경 스크롤 안 됨*/
+    background-position: center;
+    /*배경 이미지 위치 지정*/
+}

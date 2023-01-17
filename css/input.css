@@ -1,0 +1,15 @@
+.inputForm {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid white;
+    background-color: transparent;
+    color: white;
+    outline: none;
+}
+
+#login-button {
+    border: none;
+    background-color: transparent;
+    color: white;
+}

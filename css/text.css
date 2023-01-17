@@ -1,0 +1,26 @@
+/*글꼴 설정*/
+#clock {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 150px;
+    font-weight: 500;
+    color: white;
+    /*왜 마진이 자동으로 채워지는지 모르겠다*/
+    margin: 0px;
+}
+
+/*placeholder 색 지정*/
+input::placeholder {
+    color: white;
+}
+
+#lyrics {
+    color: white;
+}
+
+#weather {
+    color: white;
+}
+
+#todo-list{
+    list-style: none;
+}

@@ -20,19 +20,25 @@ function deleteToDo(event) {
     saveToDos();
 }
 
+function checkToDo(event){
+    const li = event.target.parentElement;
+    li.classList.add("checked");
+    setTimeout(deleteToDo, 500, event);
+}
+
 function paintToDo(newToDo) {
     const li = document.createElement("li");
     const span = document.createElement("span");
-    const button = document.createElement("button");
+    const checkbox = document.createElement("input");
 
     li.id = newToDo.id;
     span.innerText = newToDo.text;
-    button.innerText = "X";
+    checkbox.type = "checkbox";
 
-    button.addEventListener("click", deleteToDo);
+    checkbox.addEventListener("click", checkToDo);
 
+    li.appendChild(checkbox);
     li.appendChild(span);
-    li.appendChild(button);
 
     toDoList.appendChild(li);
 }

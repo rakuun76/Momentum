@@ -1,0 +1,50 @@
+html,
+body {
+    margin: 0px;
+    height: 100%;
+}
+
+.hidden {
+    display: none;
+}
+
+/*위치 설정*/
+.top-row {
+    height: 15vh;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.center-above {
+    height: 15vh;
+}
+
+.center {
+    height: 30vh;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-below {
+    height: 25vh;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-row {
+    height: 15vh;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

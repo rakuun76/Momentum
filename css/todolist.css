@@ -1,0 +1,7 @@
+#todo-list{
+    list-style: none;
+}
+
+.checked {
+    text-decoration: line-through white;
+}
